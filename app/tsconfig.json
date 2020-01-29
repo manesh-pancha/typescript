@@ -1,0 +1,18 @@
+{
+    "extends": "../tsconfig.base",
+    "compilerOptions": {
+        "removeComments": true,
+        // "outFile": "../js/app.js"
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "traceResolution": true,
+     
+    },
+    // "include": [
+    //     "./**/*", "../js/app.js", "../js/person.js", "../js/player.js"
+    // ]
+    "files":[
+        "./app.ts"
+
+    ]
+}
